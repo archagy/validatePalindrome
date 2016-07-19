@@ -1,0 +1,2 @@
+# validatePalindrome
+gem validate palindrome
