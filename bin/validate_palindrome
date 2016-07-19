@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'validatepalindrome'
+
+
+#Validate params 
+if ARGV[ 0 ]
+	args = ""
+	ARGV.each do |arg|
+		args += arg.dup
+	end
+	validate_palindrome?(args)
+else
+	validate_palindrome?("")
+end
